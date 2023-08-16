@@ -7,8 +7,9 @@ export const Section1 = () => {
 
     <section className={style.Section1}>
         <h1>Hvad er Co2?</h1>
-        <img src={Icon} alt="Co2" />
-        <article>
+        <div> 
+          <img src={Icon} alt="Co2" />
+          <article>
               <h4>CO2 er en gasart der findes naturligt i Jordens atmosfære. </h4>
               <p>
               - CO2, findes naturligt i atmosfæren. <br />
@@ -24,8 +25,8 @@ export const Section1 = () => {
               CO2 -balancen på Jorden i dag!
               </p>
               <a href="#">Læs mere</a>
-        </article>
-            
+          </article>
+        </div>
     </section>
 
 
