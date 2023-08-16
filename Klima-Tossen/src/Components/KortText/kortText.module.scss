@@ -1,0 +1,18 @@
+@import '../../Global-style/Color.scss';
+@import '../../Global-style/Font.scss';
+
+.Text{
+
+  article{
+    margin: 2rem;
+
+    h2{
+      font-style: italic;
+      font-family:$ArimoFont;
+      font-weight: 300;
+      font-size: 2.5rem;
+      color:$Light-Steel-Blue;
+      text-align:center;
+    }
+  }
+}

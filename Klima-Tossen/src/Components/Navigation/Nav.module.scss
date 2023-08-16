@@ -1,0 +1,27 @@
+@import '../../Global-style/Color.scss';
+@import '../../Global-style/Font.scss';
+
+
+
+.Nav{
+  background-color:#6B879B;
+  padding: 1rem;
+
+
+  ul{
+      display: flex;
+      justify-content: flex-end;
+
+    a{
+      font-family:$ArimoFont;
+      font-size: 1.7rem;
+      text-decoration: none;
+      color: #fff;
+      margin-left: 4rem;
+    }
+    a:hover{
+      color: $Light-Steel-Blue;
+    }
+}
+
+}

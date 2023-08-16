@@ -1,0 +1,66 @@
+@import '../../Global-style/Color.scss';
+@import '../../Global-style/Font.scss';
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.Header{
+  position: relative;
+  width:100vw;
+  img{
+    width: 100%;
+    display: block;
+  }
+  hgroup{
+    h1 {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      font-family:$ArimoFont;
+      font-weight: 600;
+      font-size: 7rem;
+      text-transform: uppercase;
+      color:#fff;
+    
+      span{
+        color:$Steel-Blue;
+      }
+  }
+     h2 {
+      position: absolute;
+      top:9rem ;
+      left: 33rem;
+      font-family: $ArimoFont;
+      font-weight: 400;
+      font-size: 2rem;
+      color: #fff;
+
+  }
+  }
+  article{
+    position: absolute;
+    top: 20rem;
+    right: 4rem;
+    width: 50%;
+  p {
+    font-style: italic;
+    font-family:$ArimoFont;
+    font-weight: 300;
+    font-size: 2rem;
+    color:$Light-Steel-Blue;
+    text-align: end;
+    
+    
+
+  }
+
+  }
+
+
+}
+
+
+  
